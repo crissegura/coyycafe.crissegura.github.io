@@ -101,8 +101,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 140px;
-  max-height: 140px;
+  max-height: 200px;
 }
 
 .combosHamburguesas div .h3Yp {
