@@ -2,8 +2,25 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-.navbar {
-  background-color: red;
+.navbar div {
+  background-color: #5a2424;
+  color: white;
+}
+
+.navbar div .navbar-brand {
+  color: white;
+}
+
+.navbar div .navbar-brand:hover {
+  color: white;
+}
+
+.navbar div div ul li {
+  color: white;
+}
+
+.navbar div div ul li .nav-link {
+  color: white;
 }
 
 .inicio {

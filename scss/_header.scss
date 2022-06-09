@@ -1,3 +1,22 @@
 .navbar{
-    background-color: red;
+    div{
+        background-color: rgb(90, 36, 36);
+        color: white;
+        .navbar-brand{
+            color: white;
+            &:hover{
+                color: white;
+            }
+        }
+        div{
+            ul{
+                li{
+                    color: white;
+                    .nav-link{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
 }
