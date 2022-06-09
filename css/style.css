@@ -15,11 +15,19 @@
   color: white;
 }
 
-.navbar div div ul li {
+.navbar div .collapse {
   color: white;
 }
 
-.navbar div div ul li .nav-link {
+.navbar div .collapse .navbar-nav {
+  color: white;
+}
+
+.navbar div .collapse .navbar-nav .nav-item {
+  color: white;
+}
+
+.navbar div .collapse .navbar-nav .nav-item .nav-link {
   color: white;
 }
 
