@@ -127,15 +127,15 @@
 }
 
 .combosHamburguesas div img {
-  width: 120px;
-  height: 100px;
+  width: 80px;
+  height: 60px;
   border-radius: 15px;
   padding: 10px;
 }
 
 .adicionales .ad {
   padding: 5px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   background-color: rgba(90, 36, 36, 0.596);
 }
@@ -150,5 +150,5 @@
 }
 
 .adicionales div p {
-  font-size: 20px;
+  font-size: 18px;
 }
