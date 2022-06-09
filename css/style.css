@@ -8,11 +8,21 @@
 
 .inicio section {
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
-  border: solid 1px;
+  border: solid 1px #464646;
+  -webkit-box-shadow: 7px 6px 20px -1px rgba(87, 83, 83, 0.548);
+          box-shadow: 7px 6px 20px -1px rgba(87, 83, 83, 0.548);
 }
 
 .inicio section h3 {
+  padding-left: 10px;
   font-size: 18px;
 }
+
+.inicio section img {
+  width: 350px;
+  border-radius: 10px;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
