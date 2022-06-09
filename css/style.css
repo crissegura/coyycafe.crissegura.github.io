@@ -24,14 +24,21 @@
   border: solid 1px #464646;
   -webkit-box-shadow: 7px 6px 20px -1px rgba(87, 83, 83, 0.548);
           box-shadow: 7px 6px 20px -1px rgba(87, 83, 83, 0.548);
+  height: 320px;
 }
 
-.inicio section img {
+.inicio section a {
+  text-decoration: none;
+  color: black;
+}
+
+.inicio section a img {
+  height: 270px;
   width: 100%;
   border-top-radius: 10px;
 }
 
-.inicio section div {
+.inicio section a div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +47,7 @@
           justify-content: space-between;
 }
 
-.inicio section div h3 {
+.inicio section a div h3 {
   text-align: center;
   padding: 10px;
   font-size: 20px;
