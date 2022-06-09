@@ -98,8 +98,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100px;
-  max-height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 140px;
+  max-height: 140px;
 }
 
 .combosHamburguesas div .h3Yp {
@@ -107,20 +110,25 @@
 }
 
 .combosHamburguesas div .h3Yp h3 {
-  padding: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
   font-size: 20px;
 }
 
 .combosHamburguesas div .h3Yp p {
-  padding: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
   font-size: 15px;
-  min-width: 385px;
+}
+
+.combosHamburguesas div .h3Yp .precio {
+  font-size: 15px;
 }
 
 .combosHamburguesas div img {
   width: 150px;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .adicionales .ad {

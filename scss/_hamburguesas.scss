@@ -2,24 +2,29 @@
     div{
         border-bottom: solid rgb(236, 236, 236) 1px;
         display: flex;
-        min-height: 100px;
-        max-height: 100px;
+        justify-content: space-between;
+        min-height: 140px;
+        max-height: 140px;
         .h3Yp{
             display: block;
             h3{
-                padding: 5px;
+                padding-top: 5px;
+                padding-left: 10px;
                 font-size: 20px;
             }
             p{
-                padding: 5px;
+                padding-top: 5px;
+                padding-left: 10px;
                 font-size: 15px;
-                min-width: 385px;
+            }
+            .precio{
+                font-size: 15px;
             }
         }
         img{
             width: 150px;
-            border-radius: 10px;
-            padding: 5px;
+            border-radius: 15px;
+            padding: 10px;
         }
     }
 }
