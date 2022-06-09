@@ -1,0 +1,18 @@
+.body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inicio {
+  padding: 10px;
+}
+
+.inicio section {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+.inicio section h3 {
+  font-size: 18px;
+}
