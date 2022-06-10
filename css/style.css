@@ -172,13 +172,64 @@
   font-size: 18px;
 }
 
+.sanguches section {
+  padding: 10px;
+}
+
+.sanguches section h3 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
+.sanguches section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sanguches section div .hYp {
+  padding: 10px;
+  display: block;
+}
+
+.sanguches section div .hYp h4 {
+  font-size: 18px;
+}
+
+.sanguches section div .hYp p {
+  font-size: 15px;
+}
+
+.sanguches section div div {
+  padding-right: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: none;
+}
+
+.sanguches section div div p {
+  margin: 5px;
+  font-size: 15px;
+}
+
 .bebidas section {
   padding: 10px;
 }
 
 .bebidas section h3 {
+  margin-top: 10px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
   background-color: rgba(90, 36, 36, 0.596);
 }
 

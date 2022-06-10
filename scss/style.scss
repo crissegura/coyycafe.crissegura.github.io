@@ -1,7 +1,7 @@
 .body{
     font-family:'Times New Roman', Times, serif;
     position: relative;
-    min-height: 95vh;
+    min-height: 100vh;
     padding-bottom: 40px;
 }
 
@@ -9,6 +9,7 @@
 @import "_footer.scss";
 @import "_inicio.scss";
 @import "_hamburguesas.scss";
+@import "_sanguches.scss";
 @import "_bebidas.scss";
 
 
