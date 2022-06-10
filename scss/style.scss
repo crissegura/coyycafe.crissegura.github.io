@@ -1,4 +1,6 @@
 .body{
+    background-color: rgba(15, 15, 15, 0.966);
+    color: white;
     font-family:'Times New Roman', Times, serif;
     position: relative;
     min-height: 100vh;
@@ -10,7 +12,11 @@
 @import "_inicio.scss";
 @import "_hamburguesas.scss";
 @import "_sanguches.scss";
+@import "_papas.scss";
+@import "_ensaladas.scss";
+@import "_cerveza.scss";
 @import "_bebidas.scss";
+@import "_tragos.scss";
 
 
 

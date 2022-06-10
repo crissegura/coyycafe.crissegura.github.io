@@ -1,36 +1,44 @@
 .body {
+  background-color: rgba(15, 15, 15, 0.966);
+  color: white;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
   min-height: 100vh;
   padding-bottom: 40px;
 }
 
-.navbar div {
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header .navbar div {
   background-color: #5a2424;
   color: white;
 }
 
-.navbar div .navbar-brand {
+.header .navbar div .navbar-brand {
   color: white;
 }
 
-.navbar div .navbar-brand:hover {
+.header .navbar div .navbar-brand:hover {
   color: white;
 }
 
-.navbar div .collapse {
+.header .navbar div .collapse {
   color: white;
 }
 
-.navbar div .collapse .navbar-nav {
+.header .navbar div .collapse .navbar-nav {
   color: white;
 }
 
-.navbar div .collapse .navbar-nav .nav-item {
+.header .navbar div .collapse .navbar-nav .nav-item {
   color: white;
 }
 
-.navbar div .collapse .navbar-nav .nav-item .nav-link {
+.header .navbar div .collapse .navbar-nav .nav-item .nav-link {
   color: white;
 }
 
@@ -65,6 +73,7 @@
 }
 
 .inicio section {
+  margin-top: 10px;
   margin: 10px;
   border-radius: 5px;
   border: solid 1px #464646;
@@ -75,7 +84,7 @@
 
 .inicio section a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .inicio section a img {
@@ -100,7 +109,7 @@
 }
 
 .combosHamburguesas {
-  padding: 10px;
+  padding: 20px;
 }
 
 .combosHamburguesas .titulo {
@@ -222,6 +231,163 @@
   font-size: 15px;
 }
 
+.papas section {
+  padding: 10px;
+}
+
+.papas section h3 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
+.papas section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.papas section div .hYp {
+  padding: 10px;
+  display: block;
+}
+
+.papas section div .hYp h4 {
+  font-size: 18px;
+}
+
+.papas section div .hYp p {
+  font-size: 15px;
+}
+
+.papas section div div {
+  padding-right: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: none;
+}
+
+.papas section div div p {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.ensaladas section {
+  padding: 10px;
+}
+
+.ensaladas section h3 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
+.ensaladas section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ensaladas section div .hYp {
+  padding: 10px;
+  display: block;
+}
+
+.ensaladas section div .hYp h4 {
+  font-size: 18px;
+}
+
+.ensaladas section div .hYp p {
+  font-size: 15px;
+}
+
+.ensaladas section div div {
+  padding-right: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: none;
+}
+
+.ensaladas section div div p {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.cervezas section {
+  padding: 10px;
+}
+
+.cervezas section h3 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
+.cervezas section .tirada {
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(15, 15, 15, 0);
+}
+
+.cervezas section .hh {
+  text-align: center;
+  background-color: wheat;
+  color: black;
+}
+
+.cervezas section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cervezas section div .h4Yp {
+  display: block;
+}
+
+.cervezas section div .h4Yp h4 {
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.cervezas section div .h4Yp p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.cervezas section div h4 {
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
 .bebidas section {
   padding: 10px;
 }
@@ -244,6 +410,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-right: 10px;
 }
 
 .bebidas section div h4 {
@@ -251,15 +418,46 @@
   padding-left: 10px;
 }
 
-.bebidas section div img {
-  width: 60px;
-  height: 60px;
+.tragos section {
+  padding: 10px;
 }
 
-.bebidas section div .aq {
-  width: 150px;
+.tragos section h3 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(90, 36, 36, 0.596);
 }
 
-.bebidas section div .agua {
-  width: 40px;
+.tragos section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tragos section div .trg {
+  display: block;
+}
+
+.tragos section div .trg h4 {
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.tragos section div .trg p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.tragos section div .precio {
+  padding-right: 10px;
+  font-size: 15px;
 }

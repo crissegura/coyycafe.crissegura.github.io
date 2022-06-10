@@ -1,21 +1,26 @@
-.navbar{
-    div{
-        background-color: rgb(90, 36, 36);
-        color: white;
-        .navbar-brand{
+.header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    .navbar{
+        div{
+            background-color: rgb(90, 36, 36);
             color: white;
-            &:hover{
+            .navbar-brand{
                 color: white;
-            }
-        }
-        .collapse{
-            color: white;
-            .navbar-nav{
-                color: white;
-                .nav-item{
+                &:hover{
                     color: white;
-                    .nav-link{
+                }
+            }
+            .collapse{
+                color: white;
+                .navbar-nav{
+                    color: white;
+                    .nav-item{
                         color: white;
+                        .nav-link{
+                            color: white;
+                        }
                     }
                 }
             }
