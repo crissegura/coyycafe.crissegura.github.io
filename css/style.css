@@ -32,6 +32,9 @@
 }
 
 .footer {
+  width: 100%;
+  bottom: 0;
+  margin-top: 5px;
   background-color: #5a2424;
   color: white;
   padding: 10px;
@@ -43,7 +46,6 @@
 }
 
 .inicio {
-  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,6 +95,16 @@
   font-size: 20px;
 }
 
+.combosHamburguesas {
+  padding: 10px;
+}
+
+.combosHamburguesas .titulo {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
 .combosHamburguesas div {
   border-bottom: solid #ececec 1px;
   display: -webkit-box;
@@ -111,9 +123,8 @@
 }
 
 .combosHamburguesas div .h3Yp h3 {
-  padding-top: 5px;
-  padding-left: 10px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 18px;
 }
 
 .combosHamburguesas div .h3Yp p {
@@ -127,10 +138,14 @@
 }
 
 .combosHamburguesas div img {
-  width: 150px;
-  height: 100px;
+  width: 120px;
+  height: 90px;
   border-radius: 10px;
   padding: 5px;
+}
+
+.adicionales {
+  padding: 10px;
 }
 
 .adicionales .ad {
@@ -151,4 +166,45 @@
 
 .adicionales div p {
   font-size: 18px;
+}
+
+.bebidas section {
+  padding: 10px;
+}
+
+.bebidas section h3 {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
+.bebidas section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bebidas section div h4 {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.bebidas section div img {
+  width: 60px;
+  height: 60px;
+}
+
+.bebidas section div .aq {
+  width: 150px;
+}
+
+.bebidas section div .agua {
+  width: 40px;
 }
