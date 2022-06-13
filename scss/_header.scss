@@ -1,8 +1,6 @@
 .header{
-    position: fixed;
-    top:0px;
-    width: 100%;
     .navbar{
+        color: white;
         div{
             background-color: rgba(90, 36, 36, 0.596);
             color: white;
@@ -12,8 +10,12 @@
                     color: white;
                 }
             }
+            button{
+                color: white;
+            }
             .collapse{
                 color: white;
+                background-color: rgba(90, 36, 36, 0.137);
                 .navbar-nav{
                     color: white;
                     .nav-item{

@@ -7,10 +7,8 @@
   padding-bottom: 40px;
 }
 
-.header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
+.header .navbar {
+  color: white;
 }
 
 .header .navbar div {
@@ -26,8 +24,13 @@
   color: white;
 }
 
+.header .navbar div button {
+  color: white;
+}
+
 .header .navbar div .collapse {
   color: white;
+  background-color: rgba(90, 36, 36, 0.137);
 }
 
 .header .navbar div .collapse .navbar-nav {
@@ -63,17 +66,13 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .inicio section {
-  margin-top: 10px;
+  width: 400px;
   margin: 10px;
   border-radius: 5px;
   border: solid 1px #464646;
@@ -109,7 +108,7 @@
 }
 
 .combosHamburguesas {
-  padding: 20px;
+  padding: 10px;
 }
 
 .combosHamburguesas .titulo {
@@ -236,7 +235,6 @@
 }
 
 .papas section h3 {
-  margin-top: 10px;
   padding: 10px;
   font-size: 20px;
   background-color: rgba(90, 36, 36, 0.596);
@@ -286,7 +284,6 @@
 }
 
 .ensaladas section h3 {
-  margin-top: 10px;
   padding: 10px;
   font-size: 20px;
   background-color: rgba(90, 36, 36, 0.596);
@@ -331,12 +328,62 @@
   font-size: 15px;
 }
 
+.panaderia section {
+  padding: 10px;
+}
+
+.panaderia section h3 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(90, 36, 36, 0.596);
+}
+
+.panaderia section div {
+  border-bottom: solid #ececec 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.panaderia section div .hYp {
+  padding: 10px;
+  display: block;
+}
+
+.panaderia section div .hYp h4 {
+  font-size: 18px;
+}
+
+.panaderia section div .hYp p {
+  font-size: 15px;
+}
+
+.panaderia section div div {
+  padding-right: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: none;
+}
+
+.panaderia section div div p {
+  text-align: center;
+  margin: 5px;
+  font-size: 15px;
+}
+
 .cervezas section {
   padding: 10px;
 }
 
 .cervezas section h3 {
-  margin-top: 10px;
   padding: 10px;
   font-size: 18px;
   background-color: rgba(90, 36, 36, 0.596);
@@ -461,3 +508,4 @@
   padding-right: 10px;
   font-size: 15px;
 }
+/*# sourceMappingURL=style.css.map */
