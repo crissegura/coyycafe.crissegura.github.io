@@ -4,7 +4,7 @@
   font-family: 'Times New Roman', Times, serif;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 40px;
+  padding-bottom: 170px;
 }
 
 .header .navbar {
@@ -53,11 +53,56 @@
   background-color: rgba(90, 36, 36, 0.596);
   color: white;
   padding: 10px;
-  max-height: 40px;
+  text-align: center;
 }
 
-.footer p {
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer div p {
+  font-size: 17px;
+}
+
+.footer div .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer div .div2 p {
+  padding-right: 10px;
+  font-size: 17px;
+}
+
+.footer div .div2 .svg {
+  width: 20px;
+}
+
+.footer .contactocris {
   text-align: center;
+  font-size: 15px;
+}
+
+.footer .contactocris a {
+  text-decoration: none;
+  color: wheat;
 }
 
 .inicio {
@@ -508,4 +553,33 @@
   padding-right: 10px;
   font-size: 15px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.divwp a {
+  position: fixed;
+  bottom: 150px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.divwp a:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.divwp a .svg2 {
+  width: 55px;
+}
+
+@media (min-width: 992px) {
+  .div.wp {
+    width: 55px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    cursor: pointer;
+  }
+  .div.wp:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
