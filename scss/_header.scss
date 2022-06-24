@@ -1,30 +1,14 @@
 .header{
     .navbar{
-        color: white;
-        div{
-            background-color: rgba(90, 36, 36, 0.596);
-            color: white;
+        background-color: rgba(90, 36, 36, 0.596);
+        .container-fluid{
+            color:white;
             .navbar-brand{
                 color: white;
-                &:hover{
-                    color: white;
-                }
             }
-            button{
+            .navbar-toggler{
                 color: white;
-            }
-            .collapse{
-                color: white;
-                background-color: rgba(90, 36, 36, 0.137);
-                .navbar-nav{
-                    color: white;
-                    .nav-item{
-                        color: white;
-                        .nav-link{
-                            color: white;
-                        }
-                    }
-                }
+                border: solid 1px rgba(255, 255, 255, 0.39);
             }
         }
     }

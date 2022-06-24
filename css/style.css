@@ -8,41 +8,20 @@
 }
 
 .header .navbar {
-  color: white;
-}
-
-.header .navbar div {
   background-color: rgba(90, 36, 36, 0.596);
+}
+
+.header .navbar .container-fluid {
   color: white;
 }
 
-.header .navbar div .navbar-brand {
+.header .navbar .container-fluid .navbar-brand {
   color: white;
 }
 
-.header .navbar div .navbar-brand:hover {
+.header .navbar .container-fluid .navbar-toggler {
   color: white;
-}
-
-.header .navbar div button {
-  color: white;
-}
-
-.header .navbar div .collapse {
-  color: white;
-  background-color: rgba(90, 36, 36, 0.137);
-}
-
-.header .navbar div .collapse .navbar-nav {
-  color: white;
-}
-
-.header .navbar div .collapse .navbar-nav .nav-item {
-  color: white;
-}
-
-.header .navbar div .collapse .navbar-nav .nav-item .nav-link {
-  color: white;
+  border: solid 1px rgba(255, 255, 255, 0.39);
 }
 
 .footer {
@@ -554,9 +533,19 @@
   font-size: 15px;
 }
 
+<<<<<<< HEAD
+.divwp {
+  display: none;
+}
+
+.divwp a {
+  position: fixed;
+  bottom: 165px;
+=======
 .divwp a {
   position: fixed;
   bottom: 150px;
+>>>>>>> 4285b30dd6e834ccbe04e7419bd6fdcb02359867
   right: 10px;
   cursor: pointer;
 }
